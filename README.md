@@ -116,3 +116,10 @@ To add your own custom data set for training the models
 * The cognitive search pipeline runs every 5 minutes so you might have to wait a few minutes before the data shows up on the webapp. 
 * You can also verify and look at the processed data in the cosmosDb container “formentities”  on the Azure portal.
 
+
+#### Note
+Custom UI is part of our [Knowledge Mining Solution Accelerator](https://github.com/Azure/AIPlatform/tree/master/end-to-end-solutions/kma), an open source end-to-end application that enables you to try the latest features of Azure Cognitive Search!.  Additional Reference :
+* [KMA Demos Homepage](http://aka.ms/kma)
+* [KMA Source Code](https://github.com/Azure/AIPlatform/tree/master/end-to-end-solutions/kma/src)
+* [KMA 1-Click Deployment](https://aka.ms/kmadeployment)
+* [KMB - Knowledge Mining Bootcamp](http://aka.ms/kmb)
