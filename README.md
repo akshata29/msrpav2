@@ -123,3 +123,6 @@ Custom UI is part of our [Knowledge Mining Solution Accelerator](https://github.
 * [KMA Source Code](https://github.com/Azure/AIPlatform/tree/master/end-to-end-solutions/kma/src)
 * [KMA 1-Click Deployment](https://aka.ms/kmadeployment)
 * [KMB - Knowledge Mining Bootcamp](http://aka.ms/kmb)
+
+## Contributors
+[Shekhar Kumar](https://github.com/shkumar64)
