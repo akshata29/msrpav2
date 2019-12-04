@@ -34,8 +34,9 @@ Follow these steps to prepare the deployment:
 * Set the priorities running (every time you restart the PowerShell)
   `Set-ExecutionPolicy -ExecutionPolicy unrestricted`.  (Choose "A", to change the policy to Yes to All)
 * Install following Azure Module (one-time)
-  `Install-Module -Name Az -AllowClobber -Scope AllUsers`
-  `Install-Module -Name Az.Search -AllowClobber -Scope AllUsers`
+  * `Install-Module -Name Az -AllowClobber -Scope AllUsers`
+  * `Install-Module -Name Az.Search -AllowClobber -Scope AllUsers`
+  * `Install-Module AzTable -Force`
 * Clone the repo, using [Git for Windows](https://gitforwindows.org/) or any other git app you want. The command is git clone https://github.com/akshata29/msrpa.git
 
 ### Step2 - Customization
