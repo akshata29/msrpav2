@@ -514,8 +514,8 @@ try {
     }
 
 # Get Account Key and connection string
-#$funcStorageAccountKey = (Get-AzStorageAccountKey -ResourceGroupName $resourceGroupName -AccountName $funcStorageAccountName).Value[0]
-$funcStorageAccountKey = ($funcStorageAccount).Value[0]
+$funcStorageAccountKey = (Get-AzStorageAccountKey -ResourceGroupName $resourceGroupName -AccountName $funcStorageAccountName).Value[0]
+#$funcStorageAccountKey = ($funcStorageAccount).Value[0]
 $funcStorageAccountConnectionString = 'DefaultEndpointsProtocol=https;AccountName=' + $funcStorageAccountName + ';AccountKey=' + $funcStorageAccountKey + ';EndpointSuffix=core.windows.net' 
 $outArray.Add("v_funcStorageAccountKey=$funcStorageAccountKey")
 $outArray.Add("v_funcStorageAccountConnectionString=$funcStorageAccountConnectionString")
